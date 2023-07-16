@@ -1,0 +1,18 @@
+img {
+    width: 50%;
+    height: 60%;
+    border-radius: 50%;
+}
+
+i {
+    border: solid black 1px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.header {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 2fr;
+}
