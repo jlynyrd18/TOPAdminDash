@@ -5,8 +5,45 @@ img {
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    gap: 5px;
 }
+
+.nav {
+    background-color: rgb(72, 72, 214)
+}
+
 .header {
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr 1fr 2fr;
+    grid-template-columns: .1fr 5fr 1fr 1fr 2fr;
+    align-items: center;
+}
+
+#searchbar{
+    width: 80%;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+}
+
+#githubIntro {
+    width: 100px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    gap: 5px;
+}
+
+.tiles {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 15px;
+}
+
+.project {
+    border: black 1px solid;
+    border-radius: 25px;
 }
