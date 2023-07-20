@@ -4,10 +4,6 @@ img {
     border-radius: 50%;
 }
 
-i {
-    border: solid black 1px;
-}
-
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
