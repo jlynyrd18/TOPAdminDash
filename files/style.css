@@ -31,10 +31,11 @@ img {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
     border-bottom: grey 3px solid;
+    align-items: center;
 }
 /*Need to resize buttons so intro size can downsize*/
 .button{
-    height: 50px;
+    height: 25px;
 }
 #githubIntro {
     width: 100px;
