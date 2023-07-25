@@ -23,6 +23,8 @@ img {
 
 #profilePic {
     border-radius: 50%;
+    height: 60px;
+    width: 50px;
 }
 
 .intro {
@@ -30,7 +32,10 @@ img {
     grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
     border-bottom: grey 3px solid;
 }
-
+/*Need to resize buttons so intro size can downsize*/
+.button{
+    height: 50px;
+}
 #githubIntro {
     width: 100px;
 }
@@ -59,7 +64,7 @@ img {
 
 .social {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: .5fr 1fr;
 }
 
 .currann {
@@ -69,4 +74,18 @@ img {
 }
 .notice {
     border-bottom: grey 1px solid;
+}
+
+.trendcont {
+    border: black 1px solid;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.socialLink {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto auto auto auto;
+    align-items: center;
+    margin-left: 25px;
 }
