@@ -5,7 +5,6 @@ img {
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    gap: 5px;
 }
 
 .nav {
@@ -22,9 +21,14 @@ img {
     width: 80%;
 }
 
+#profilePic {
+    border-radius: 50%;
+}
+
 .intro {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+    border-bottom: grey 3px solid;
 }
 
 #githubIntro {
@@ -35,6 +39,7 @@ img {
     display: grid;
     grid-template-columns: 4fr 2fr;
     gap: 5px;
+    background-color: lightgrey;
 }
 
 .tiles {
@@ -44,6 +49,24 @@ img {
 }
 
 .project {
+    border-left: yellow 10px solid;
+    border-top: black 1px solid;
+    border-right: black 1px solid;
+    border-bottom: black 1px solid;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.social {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.currann {
     border: black 1px solid;
     border-radius: 25px;
+    background-color: white;
+}
+.notice {
+    border-bottom: grey 1px solid;
 }
